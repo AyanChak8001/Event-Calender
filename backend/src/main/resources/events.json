@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "Project kickoff",
+    "date": "2025-11-15",
+    "time": "10:00",
+    "durationMinutes": 60,
+    "description": "Kickoff meeting with team"
+  },
+  {
+    "id": "2",
+    "title": "Client review",
+    "date": "2025-11-20",
+    "time": "14:00",
+    "durationMinutes": 45,
+    "description": "Review deliverables"
+  },
+  {
+    "id": "3",
+    "title": "Demo day",
+    "date": "2025-12-02",
+    "time": "16:00",
+    "durationMinutes": 30,
+    "description": "Internal demo"
+  },
+  {
+    "id": "4",
+    "title": "Overlap A",
+    "date": "2025-11-20",
+    "time": "14:15",
+    "durationMinutes": 30,
+    "description": "Overlapping event A"
+  },
+  {
+    "id": "5",
+    "title": "Overlap B",
+    "date": "2025-11-20",
+    "time": "14:30",
+    "durationMinutes": 60,
+    "description": "Overlapping event B"
+  }
+]

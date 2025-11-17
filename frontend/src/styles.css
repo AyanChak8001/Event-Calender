@@ -1,0 +1,23 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.app { padding: 20px; max-width: 1000px; margin: 0 auto; }
+.calendar { border: 1px solid #ddd; padding: 12px; border-radius: 8px; }
+.calendar-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px }
+.current-month { font-weight:600 }
+.days-row { display:flex }
+.col { flex:1; padding:8px; box-sizing: border-box; min-height:110px; border: 1px solid #f0f0f0 }
+.day-name { text-align:center; font-weight:600; background:#fafafa }
+.row { display:flex }
+.cell { cursor:pointer; position:relative; overflow:hidden }
+.cell.disabled { opacity:0.45 }
+.date-number { position:absolute; top:6px; right:8px; font-size:12px }
+.today { background: linear-gradient(90deg, #fffbe6, #e8f7ff); border:1px solid #9fd7ff }
+.events { margin-top:20px; padding:4px; display:flex; flex-direction:column; gap:6px }
+.event-row { display:flex; }
+.event { background:#e0f2ff; padding:4px 6px; border-radius:6px; font-size:12px; display:flex; flex-direction:column; min-width:80px; max-width:120px; }
+.event-title { font-weight:600; font-size:12px }
+.event-time { font-size:11px; color:#333; opacity:0.8 }
+.more { font-size:12px; color:#666 }
+.legend { margin-top:10px }
+.today-dot { display:inline-block; width:10px; height:10px; background:#9fd7ff; border-radius:50%; margin-right:6px }
+
+@media (max-width:600px) { .col { min-height:70px; padding:6px } .event { min-width:60px; max-width:90px; } }
